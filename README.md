@@ -118,6 +118,7 @@ All input and output files in these examples are provided in the '.\example\' pa
 * Enter the temperature range (300-900) in the 'T(K)' field to the left of the 'Get D' button;
 * Click the 'Get D' button.
   After successfully running the programm, the tracer diffusion coefficients will be plotted on the left side of the GUI. The results are saved in 'your path\Al-X\Al-Mg\' directorty. The tracer diffusion coefficient results are saved named as 'D.dat', with six columns representing T, 1000/T, D_impurity, D_self_diffusion data, vacancy concentration with an impurity atom in its nearest neighboring site,and vacancy concentration in pure Al, respectively. The mobility data are saved as 'MQ_tdb.dat'. The correlation factors are saved in the last column of 'f-Factor.dat'. The jump frequencies for each path are saved in the last column of 'iToj.dat'.
+
   If the user only wants to get the self-diffusion data of Al, the 'Impurity element' field should be filled with 'none'. The calculated results will then be saved in the user-defined path 'your path\Al-X\Al\'.The self-diffusion coefficient results are saved named as 'D_self.dat', with four columns representing T, 1000/T, D_self_diffusion data,and vacancy concentration in pure Al, respectively. The mobility data are saved as 'MQ_tdb_self.dat'. The jump frequencies for each path are saved in the last column of 'iToj.dat'.
 All post-processing results of Al-Mg alloy or pure Al metal are saved in '.\example\FCC\AlMg_D_results\' directory.
   
@@ -129,6 +130,7 @@ All post-processing results of Al-Mg alloy or pure Al metal are saved in '.\exam
 * Enter the temperature range (300-2000) in the 'T(K)' field to the left of the 'Get D' button;
 * Click the 'Get D' button.
   After successfully running the programm, the tracer diffusion coefficients will be plotted on the left side of the GUI. The results are saved in 'your path\W-X\W-Mo\' directorty. The tracer diffusion coefficient results are saved named as 'D.dat', with six columns representing T, 1000/T, D_impurity, D_self_diffusion data, vacancy concentration with an impurity atom in its nearest neighboring site,and vacancy concentration in pure W, respectively. The mobility data are saved as 'MQ_tdb.dat'. The correlation factors are saved in the last column of 'f-Factor.dat'. The jump frequencies for each path are saved in the last column of 'iToj.dat'.
+  
   If the user only wants to get the self-diffusion data of W, the 'Impurity element' field should be filled with 'none'. The calculated results will then be saved in the user-defined path 'your path\W-X\W\'.The self-diffusion coefficient results are saved named as 'D_self.dat', with four columns representing T, 1000/T, D_self_diffusion data,and vacancy concentration in pure W, respectively. The mobility data are saved as 'MQ_tdb_self.dat'. The jump frequencies for each path are saved in the last column of 'iToj.dat'.
 All post-processing results of W-Mo alloy or pure Al metal are saved in '.\example\BCC\WMo_D_results\' directory.
 
@@ -140,6 +142,7 @@ All post-processing results of W-Mo alloy or pure Al metal are saved in '.\examp
 * Enter the temperature range (300-1500) in the 'T(K)' field to the left of the 'Get D' button;
 * Click the 'Get D' button.
   After successfully running the programm, the tracer diffusion coefficients will be plotted on the left side of the GUI. The results are saved in 'your path\Ti-X\Ti-Al\' directorty. The tracer diffusion coefficient results are saved named as 'D.dat', with eight columns representing T, 1000/T, D_self_basal, D_self_Z, D_impurity_basal, D_impurity_Z, vacancy concentration with an impurity atom in its nearest neighboring site,and vacancy concentration in pure Ti, respectively. The mobility data are saved as 'MQ_basal_tdb.dat' and  'MQ_Z_tdb.dat'. The correlation factors of impurity diffusion (fbz, fbx, fax) are saved in 'f-Factor.dat', and the correlation factor of Ti self-diffusion (fax, fbx, fbz) are saved in 'f.dat'. The jump frequencies for each path are saved in the last column of 'iToj.dat'.
+  
   If the user only wants to get the self-diffusion data of Ti, the 'Impurity element' field should be filled with 'none'. The calculated results will then be saved in the user-defined path 'your path\Ti-X\Ti\'.The self-diffusion coefficient results are saved named as 'D_self.dat', with five columns representing T, 1000/T, D_self_basal, D_self_Z ,and vacancy concentration in pure Ti, respectively. The mobility data are saved as 'MQ_tdb_self.dat'. The jump frequencies for each path are saved in the last column of 'iToj.dat'.
 All post-processing results of Ti-Al alloy or pure Ti metal are saved in '.\example\HCP\TiAl_D_results\' directory.
 
